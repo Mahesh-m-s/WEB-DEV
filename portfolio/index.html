@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mahesh Portfolio</title>
+
+<title>Mahesh | Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
+
+<!-- particles.js -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
 </head>
 
 <body>
 
+<div id="particles-js"></div>
+
 <header>
 <nav class="navbar">
+
 <h2 class="logo">Mahesh</h2>
 
 <ul class="nav-links">
@@ -21,65 +31,74 @@
 <li><a href="#contact">Contact</a></li>
 </ul>
 
-<button id="modeToggle">🌙</button>
-
 </nav>
 </header>
 
 <section id="home" class="hero">
-<h1>Hello, I'm Mahesh</h1>
-<p>Computer Science Student | DSA Enthusiast | Web Developer</p>
-<a href="#projects">
+
+<h1>Hello I'm Mahesh</h1>
+
+<h2><span id="typing"></span></h2>
+
 <button class="btn">View Projects</button>
-</a>
+
 </section>
 
-<section id="about" class="about">
+<section id="about" class="section glass">
+
 <h2>About Me</h2>
+
 <p>
-I am a Computer Science undergraduate interested in Data Structures,
-Algorithms and Web Development. I enjoy building web applications
-and solving coding problems on platforms like LeetCode.
+I am a Computer Science student passionate about Web Development
+and Data Structures. I enjoy building interactive web applications
+and solving coding problems.
 </p>
+
 </section>
 
-<section id="skills" class="skills">
+<section id="skills" class="section">
+
 <h2>Skills</h2>
 
-<div class="skill-container">
+<div class="skills-container">
 
-<div class="skill">HTML</div>
-<div class="skill">CSS</div>
-<div class="skill">JavaScript</div>
-<div class="skill">React</div>
-<div class="skill">C Programming</div>
-<div class="skill">DSA</div>
+<div class="skill-card">HTML</div>
+<div class="skill-card">CSS</div>
+<div class="skill-card">JavaScript</div>
+<div class="skill-card">React</div>
+<div class="skill-card">DSA</div>
 
 </div>
 
 </section>
 
-<section id="projects" class="projects">
+<section id="projects" class="section">
 
 <h2>Projects</h2>
 
+<div class="projects-container">
+
 <div class="project-card">
 <h3>Banking Management System</h3>
-<p>
-Cross-platform banking app built using React Native
-with features like login, balance checking, and transactions.
-</p>
+<p>Cross platform banking app built with React Native.</p>
+</div>
+
+<div class="project-card">
+<h3>To Do App</h3>
+<p>Task management app using JavaScript and LocalStorage.</p>
+</div>
+
 </div>
 
 </section>
 
-<section id="contact" class="contact">
+<section id="contact" class="section glass">
 
 <h2>Contact</h2>
 
-<p>Email: yourmail@gmail.com</p>
-<p>GitHub: github.com/yourusername</p>
-<p>LinkedIn: linkedin.com/in/yourprofile</p>
+<p>Email : yourmail@gmail.com</p>
+<p>GitHub : github.com/yourusername</p>
+<p>LinkedIn : linkedin.com/in/yourprofile</p>
 
 </section>
 
