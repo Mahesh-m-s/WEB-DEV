@@ -1,0 +1,1 @@
+alert("hey this is ur first web page");

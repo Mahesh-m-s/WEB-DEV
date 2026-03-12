@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>quiz</title>
+</head>
+
+<body>
+    <form action="/submit">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="username" required>
+            <div>
+                <label for="password">password</label>
+                <input type="password" placeholder="password" required>
+            </div>
+        
+        </div>
+        <div>
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" placeholder="city" required>
+        </div>
+        
+        <div>
+            <label for="pincode">Pincode</label>
+            <input type="number" name="pincode" id="Pincode" placeholder="pincode">
+        </div>
+        <br>
+        <div>
+            <h4>select your favourite subject</h4>
+            <br>
+            <label for="101">
+                <input type="checkbox" value="math" name="subject" id="101">maths
+            </label>
+            <br>
+            <label for="102">
+                <input type="checkbox" value="chem" name="subject" id="102">chemistry
+            </label>
+            <br>
+            <label for="103">
+                <input type="checkbox" value="phy" name="subject" id="103">physics
+            </label>
+            <br>
+            <label for="104">
+                <input type="checkbox" value="bio" name="subject" id="104">biology
+            </label>
+        </div>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
