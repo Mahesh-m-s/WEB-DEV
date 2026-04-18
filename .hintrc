@@ -3,21 +3,6 @@
     "development"
   ],
   "hints": {
-    "disown-opener": "off",
-    "axe/text-alternatives": "off",
-    "axe/forms": [
-      "default",
-      {
-        "label": "off"
-      }
-    ],
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "backdrop-filter"
-        ]
-      }
-    ]
+    "no-inline-styles": "off"
   }
 }

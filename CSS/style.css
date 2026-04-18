@@ -1,10 +1,23 @@
-.myclass{
-    color: blue;
-}
-#box{
-    color: navy;
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
 }
 
-body{
-    background-color: bisque;
+#nav{
+    height: 60px;
+    background-color: #0f1111;
+    border: 5px solid white;
+}
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    color: #f08804;
+    font-size:25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
 }
